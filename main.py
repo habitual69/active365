@@ -44,9 +44,6 @@ def get_access_token(refresh_token, client_id, client_secret):
     return access_token
 
 def main():
-    refresh_token = 'your_refresh_token'
-    client_id = 'your_client_id'
-    client_secret = 'your_client_secret'
     access_token = get_access_token(refresh_token, client_id, client_secret)
     session = requests.Session()
     session.headers.update({
