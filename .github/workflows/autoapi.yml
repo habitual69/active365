@@ -1,5 +1,5 @@
 #Automatic call to the API to keep alive, encrypted version
-name: MS AutoSubscribeService with GitHub v2
+name: active365
 
 on: 
   release:
