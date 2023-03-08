@@ -8,6 +8,11 @@ import time
 # mail: Mail.Read、Mail.ReadWrite、MailboxSettings.Read、MailboxSettings.ReadWrite
 # After registration, you must click on behalf of xxx to grant administrator consent, otherwise outlook api cannot be called
 
+
+
+
+
+
 endpoints = [
     'https://graph.microsoft.com/v1.0/me/drive/root',
     'https://graph.microsoft.com/v1.0/me/drive',
